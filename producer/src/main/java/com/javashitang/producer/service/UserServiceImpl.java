@@ -1,11 +1,16 @@
 package com.javashitang.producer.service;
 
+import com.javashitang.api.pojo.UserInfo;
 import com.javashitang.api.service.UserService;
 
 public class UserServiceImpl implements UserService {
 
     @Override
-    public String hello(String username) {
-        return null;
+    public UserInfo hello(String username) {
+        UserInfo userInfo = new UserInfo();
+        userInfo.setUserId("10");
+        userInfo.setPhoneNum("15810554635");
+        userInfo.setUserAddress("北京昌平");
+        return userInfo;
     }
 }

@@ -1,6 +1,8 @@
 package com.javashitang.api.service;
 
+import com.javashitang.api.pojo.UserInfo;
+
 public interface UserService {
 
-    String hello(String username);
+    UserInfo hello(String userId);
 }
