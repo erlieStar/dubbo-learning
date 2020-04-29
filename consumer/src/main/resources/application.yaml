@@ -1,5 +1,5 @@
 server:
-  port: 8081
+  port: 8080
 
 spring:
   application:
@@ -10,7 +10,7 @@ dubbo:
     base-packages: com.javashitang.consumer.controller
   registry:
     protocol: zookeeper
-    address: 127.0.0.1:2181
+    address: myhost:2181
   consumer:
     # check 为 false 的话那么 consumer 启动时不会去检查 producer 启动与否
     check: false

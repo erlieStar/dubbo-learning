@@ -1,6 +1,7 @@
 package com.javashitang.consumer;
 
 
+import com.javashitang.api.pojo.UserInfo;
 import com.javashitang.api.service.UserService;
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -20,7 +21,7 @@ public class ConsumerAppTest {
 
     @Test
     public void hello() {
-        String result = userService.hello("xiaoming");
-        System.out.println(result);
+        UserInfo userInfo = userService.hello("xiaoming");
+        System.out.println(userInfo);
     }
 }
