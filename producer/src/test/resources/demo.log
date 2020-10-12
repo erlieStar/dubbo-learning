@@ -1,0 +1,3 @@
+2020-10-12 18:59:32.229 [DubboServerHandler-192.168.97.49:20881-thread-2] INFO  c.j.producer.conf.CostFilter - request cost:[hello] 9
+2020-10-12 18:59:37.442 [DubboServerHandler-192.168.97.49:20881-thread-3] INFO  c.j.producer.conf.CostFilter - request cost:[test] 1
+2020-10-12 18:59:38.824 [DubboServerHandler-192.168.97.49:20881-thread-4] INFO  c.j.producer.conf.CostFilter - request cost:[hello] 0
