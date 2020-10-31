@@ -23,7 +23,7 @@ public class CostFilter implements Filter {
         long start = System.currentTimeMillis();
         Result result = invoker.invoke(invocation);
         long cost = System.currentTimeMillis() - start;
-        log.info("request cost " + invocation.getMethodName() + " " + cost);
+        log.info("request cost " + invoker.getInterface().toString() + " " + invocation.getMethodName() + " " + cost);
         return result;
     }
 }
