@@ -15,8 +15,8 @@ dubbo:
     name: dubbo
   registry:
     # 注册中心地址及协议
-    address: zookeeper://myhost:2181
+    address: zookeeper://www.javashitang.com:2181
     # 可选的协议有dubbo，zookeeper，redis，consul 等
   # 假如使用新的 dubbo-admin 的话记得添加元数据配置，这样可以在 dubbo-admin 用来调试 provider 的服务
   metadata-report:
-    address: zookeeper://myhost:2181
+    address: zookeeper://www.javashitang.com:2181
