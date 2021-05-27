@@ -11,7 +11,7 @@ public class UserServiceImpl implements UserService {
     public UserInfo hello(String username) {
         UserInfo userInfo = new UserInfo();
         userInfo.setUserId("10");
-        userInfo.setPhoneNum("15810554635");
+        userInfo.setPhoneNum("158****4635");
         userInfo.setUserAddress("北京昌平");
         return userInfo;
     }
