@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class UserController {
 
-    @Reference
+    @Reference(check = false)
     private UserService userService;
 
     @RequestMapping("hello")
