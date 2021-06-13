@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class EchoController {
 
-    @Reference
+    @Reference(mock = "force:return default")
     private EchoService echoService;
 
     @RequestMapping("echo")
