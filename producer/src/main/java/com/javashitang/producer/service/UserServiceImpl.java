@@ -15,4 +15,14 @@ public class UserServiceImpl implements UserService {
         userInfo.setUserAddress("北京昌平");
         return userInfo;
     }
+
+    @Override
+    public UserInfo save(UserInfo userInfo) {
+        return userInfo;
+    }
+
+    @Override
+    public String get(String userId, Integer age) {
+        return userId + age;
+    }
 }
