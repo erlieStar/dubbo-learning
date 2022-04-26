@@ -31,3 +31,4 @@ HELP.md
 /logs
 /producer/logs
 /consumer/logs
+**/target

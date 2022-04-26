@@ -8,4 +8,4 @@ spring:
 dubbo:
   registry:
     # 注册中心地址及协议
-    address: zookeeper://myhost:2181
+    address: zookeeper://localhost:2181

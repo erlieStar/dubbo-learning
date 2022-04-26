@@ -1,6 +1,7 @@
 package com.javashitang.consumer.controller;
 
 import com.javashitang.api.pojo.UserInfo;
+import com.javashitang.api.service.AsyncUserService;
 import com.javashitang.api.service.UserService;
 import org.apache.dubbo.config.annotation.Reference;
 import org.apache.dubbo.rpc.RpcContext;
@@ -13,12 +14,13 @@ import java.util.concurrent.CompletableFuture;
 @RestController
 public class AsyncUserController {
 
+    // 同样的一个服务引入的时候要统一，要同步都同步，要异步都异步
     @Reference(check = false, async = true)
-    private UserService userService;
+    private AsyncUserService asyncUserService;
 
     @RequestMapping("asyncHello")
     public UserInfo hello(@RequestParam("id") String id) throws Exception {
-        userService.hello(id);
+        asyncUserService.hello(id);
         CompletableFuture<UserInfo> future = RpcContext.getContext().getCompletableFuture();
         return future.get();
     }
