@@ -1,5 +1,5 @@
 server:
-  port: 8080
+  port: 8082
 
 spring:
   application:
@@ -8,4 +8,4 @@ spring:
 dubbo:
   registry:
     protocol: zookeeper
-    address: myhost:2181
+    address: localhost:2181

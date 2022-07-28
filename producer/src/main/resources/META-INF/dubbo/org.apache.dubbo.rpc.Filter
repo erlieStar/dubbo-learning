@@ -1,1 +1,2 @@
 cost=com.javashitang.producer.conf.CostFilter
+simple=com.javashitang.producer.conf.SimpleTraceFilter
