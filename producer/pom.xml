@@ -64,6 +64,11 @@
     </dependency>
 
     <dependency>
+      <groupId>com.alibaba.csp</groupId>
+      <artifactId>sentinel-transport-simple-http</artifactId>
+    </dependency>
+
+    <dependency>
       <groupId>org.apache.dubbo</groupId>
       <artifactId>dubbo-dependencies-zookeeper</artifactId>
       <version>${dubbo.version}</version>
