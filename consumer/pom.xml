@@ -62,6 +62,11 @@
     </dependency>
 
     <dependency>
+      <groupId>com.alibaba.csp</groupId>
+      <artifactId>sentinel-apache-dubbo-adapter</artifactId>
+    </dependency>
+
+    <dependency>
       <groupId>org.apache.dubbo</groupId>
       <artifactId>dubbo-dependencies-zookeeper</artifactId>
       <version>${dubbo.version}</version>
