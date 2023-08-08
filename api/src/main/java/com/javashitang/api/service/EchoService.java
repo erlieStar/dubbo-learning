@@ -8,5 +8,5 @@ public interface EchoService {
 
     String hello(Integer num);
 
-    Integer echo(Integer num);
+    Integer echo(String num);
 }

@@ -21,7 +21,7 @@ public class EchoServiceImpl implements EchoService {
     }
 
     @Override
-    public Integer echo(Integer num) {
-        return num;
+    public Integer echo(String num) {
+        return Integer.valueOf(num);
     }
 }
