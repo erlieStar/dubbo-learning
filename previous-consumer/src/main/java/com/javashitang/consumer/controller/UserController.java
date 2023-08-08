@@ -17,7 +17,7 @@ public class UserController {
 
     @RequestMapping("hello")
     public UserInfo hello(@RequestParam("id") String id) {
-        return userService.hello(id, "test");
+        return userService.hello(id);
     }
 
 }

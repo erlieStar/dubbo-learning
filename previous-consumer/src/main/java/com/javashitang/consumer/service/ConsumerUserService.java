@@ -18,6 +18,6 @@ public class ConsumerUserService implements ConsumerUserServiceV2 {
 
     @Override
     public UserInfo helloV2(String userId) {
-        return userService.hello(userId, "test");
+        return userService.hello(userId);
     }
 }
