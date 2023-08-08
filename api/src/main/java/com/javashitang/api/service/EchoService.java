@@ -6,5 +6,7 @@ package com.javashitang.api.service;
  */
 public interface EchoService {
 
-    String hello(String msg);
+    String hello(Integer num);
+
+    Integer echo(Integer num);
 }

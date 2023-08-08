@@ -14,7 +14,7 @@ public class EchoController {
     private EchoService echoService;
 
     @RequestMapping("echo")
-    public String echo(@RequestParam("msg") String msg) {
+    public String echo(@RequestParam("msg") Integer msg) {
         return echoService.hello(msg);
     }
 
