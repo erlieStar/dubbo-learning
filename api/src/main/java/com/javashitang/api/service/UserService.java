@@ -4,5 +4,5 @@ import com.javashitang.api.pojo.UserInfo;
 
 public interface UserService {
 
-    UserInfo hello(String userId);
+    UserInfo hello(String userId, String userAddress);
 }
