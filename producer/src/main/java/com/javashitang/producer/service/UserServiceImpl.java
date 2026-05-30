@@ -2,7 +2,7 @@ package com.javashitang.producer.service;
 
 import com.javashitang.api.pojo.UserInfo;
 import com.javashitang.api.service.UserService;
-import org.apache.dubbo.config.annotation.Service;
+import com.alibaba.dubbo.config.annotation.Service;
 
 @Service
 public class UserServiceImpl implements UserService {

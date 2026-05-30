@@ -3,8 +3,8 @@ package com.javashitang.consumer.service;
 import com.javashitang.api.pojo.UserInfo;
 import com.javashitang.api.service.ConsumerUserServiceV2;
 import com.javashitang.api.service.UserService;
-import org.apache.dubbo.config.annotation.Reference;
-import org.apache.dubbo.config.annotation.Service;
+import com.alibaba.dubbo.config.annotation.Reference;
+import com.alibaba.dubbo.config.annotation.Service;
 
 /**
  * @author lilimin

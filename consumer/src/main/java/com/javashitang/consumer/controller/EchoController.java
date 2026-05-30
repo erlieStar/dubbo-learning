@@ -1,7 +1,7 @@
 package com.javashitang.consumer.controller;
 
 import com.javashitang.api.service.EchoService;
-import org.apache.dubbo.config.annotation.Reference;
+import com.alibaba.dubbo.config.annotation.Reference;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class EchoController {
 
-    @Reference(mock = "force:return default")
+    @Reference
     private EchoService echoService;
 
     @RequestMapping("echo")

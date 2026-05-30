@@ -6,6 +6,8 @@ spring:
     name: springboot-dubbo-consumer
 
 dubbo:
+  application:
+    name: springboot-dubbo-consumer
   registry:
     protocol: zookeeper
-    address: myhost:2181
+    address: 127.0.0.1:2181

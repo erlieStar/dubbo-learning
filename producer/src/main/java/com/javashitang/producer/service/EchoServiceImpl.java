@@ -2,7 +2,7 @@ package com.javashitang.producer.service;
 
 import com.javashitang.api.service.EchoService;
 import lombok.extern.slf4j.Slf4j;
-import org.apache.dubbo.config.annotation.Service;
+import com.alibaba.dubbo.config.annotation.Service;
 
 import java.util.concurrent.TimeUnit;
 

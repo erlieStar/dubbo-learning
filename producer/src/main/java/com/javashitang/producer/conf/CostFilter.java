@@ -1,14 +1,14 @@
 package com.javashitang.producer.conf;
 
 import lombok.extern.slf4j.Slf4j;
-import org.apache.dubbo.common.extension.Activate;
-import org.apache.dubbo.rpc.Filter;
-import org.apache.dubbo.rpc.Invocation;
-import org.apache.dubbo.rpc.Invoker;
-import org.apache.dubbo.rpc.Result;
-import org.apache.dubbo.rpc.RpcException;
+import com.alibaba.dubbo.common.extension.Activate;
+import com.alibaba.dubbo.rpc.Filter;
+import com.alibaba.dubbo.rpc.Invocation;
+import com.alibaba.dubbo.rpc.Invoker;
+import com.alibaba.dubbo.rpc.Result;
+import com.alibaba.dubbo.rpc.RpcException;
 
-import static org.apache.dubbo.monitor.MonitorService.PROVIDER;
+import static com.alibaba.dubbo.monitor.MonitorService.PROVIDER;
 
 /**
  * @author lilimin
