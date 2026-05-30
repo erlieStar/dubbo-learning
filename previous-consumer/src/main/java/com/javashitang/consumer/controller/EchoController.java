@@ -13,13 +13,13 @@ public class EchoController {
     @Reference
     private EchoService echoService;
 
-    @RequestMapping("hello")
+    @RequestMapping("echoHello")
     public String hello(@RequestParam("msg") Integer msg) {
         return echoService.hello(msg);
     }
 
     @RequestMapping("echo")
-    public Integer echo(@RequestParam("msg") Integer msg) {
+    public Integer echo(@RequestParam("msg") String msg) {
         return echoService.echo(msg);
     }
 

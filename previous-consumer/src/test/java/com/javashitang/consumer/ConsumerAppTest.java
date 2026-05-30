@@ -21,7 +21,7 @@ public class ConsumerAppTest {
 
     @Test
     public void hello() {
-        UserInfo userInfo = userService.hello("xiaoming", "test");
+        UserInfo userInfo = userService.hello("xiaoming");
         System.out.println(userInfo);
     }
 }

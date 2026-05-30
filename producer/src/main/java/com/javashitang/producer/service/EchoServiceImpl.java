@@ -17,11 +17,6 @@ public class EchoServiceImpl implements EchoService {
     @Override
     public String hello(String msg) {
         log.info("hello param msg: {}", msg);
-        try {
-            TimeUnit.MINUTES.sleep(1);
-        } catch (InterruptedException e) {
-            e.printStackTrace();
-        }
         return msg;
     }
 }
